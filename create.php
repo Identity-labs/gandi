@@ -20,7 +20,6 @@ $imageDebian = array_values(array_filter($images, function($image){return $image
 $keys = $oGandi->hostingSsh->list();
 
 var_dump($datacenterFr, $imageDebian, $keys);
-exit;
 
 // On créé la VM
 $vmInfo = $oGandi->hostingVm->create_from(array(
