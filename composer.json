@@ -1,0 +1,14 @@
+{
+    "name": "identity-labs/gandi",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aurelien",
+            "email": "ad@myposeo.com"
+        }
+    ],
+    "require": {
+        "bespoke-support/gandi": "dev-master",
+        "lstrojny/fxmlrpc": "0.9.x"
+    }
+}
